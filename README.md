@@ -1,2 +1,2 @@
 # foreseestudio-en
-This is foreseestudio english website
+This is foreseestudio's english website
