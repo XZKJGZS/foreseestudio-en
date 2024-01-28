@@ -6,8 +6,8 @@ module.exports = {
   // theme: 'vdoing', // 使用依赖包主题
   theme: require.resolve('../../vdoing'), // 使用本地主题 (先将vdoing主题文件下载到本地：https://github.com/xugaoyi/vuepress-theme-vdoing)
 
-  title: "先知科技工作室",
-  description: '绿色、共享、普惠、包容',
+  title: "Foresee Studio",
+  description: 'Green, Shared, Inclusive, and Universal',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
@@ -21,9 +21,9 @@ module.exports = {
   // 主题配置
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
+      { text: 'Home', link: '/' },
       {
-        text: '关于我们', link: '/about/a0001/',
+        text: 'About Us', link: '/about/a0001/',
         // items: [
         //   { text: '主题初衷与诞生', link: '/pages/52d5c3/' },
         //   { text: '介绍', link: '/pages/a2f161/' },
@@ -47,7 +47,7 @@ module.exports = {
         // ]
       },
       {
-        text: '工作室动态', link: '/studio/s0001/',
+        text: 'Studio News', link: '/studio/s0001/',
         // items: [
         //   { text: '主题配置', link: '/pages/a20ce8/' },
         //   { text: '首页配置', link: '/pages/f14bdb/' },
@@ -58,20 +58,20 @@ module.exports = {
         //   { text: '评论栏', link: '/pages/ce175c/' },
         // ]
       },
-      { text: '行业动态', link: '/industry/i0001/' },
-      { text: '资源', link: '/resources/r0001/' },
-      { text: '案例', link: '/case/c0001/' },
-      { text: '赞助', link: '/money/m0001/' },
+      { text: 'Industry News', link: '/industry/i0001/' },
+      { text: 'Products', link: '/products/p0001/' },
+      { text: 'Resources', link: '/resources/r0001/' },
+      { text: 'Sponsorship', link: '/money/m0001/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
     repo: 'XZKJGZS/foreseestudio', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
+    lastUpdated: 'Last Updated', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
     docsDir: 'docs', // 编辑的文件夹
     editLinks: true, // 编辑链接
-    editLinkText: '编辑',
+    editLinkText: 'Edit',
 
     // 以下配置是Vdoing主题改动的和新增的配置
     sidebar: { mode: 'structuring', collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义    温馨提示：目录页数据依赖于结构化的侧边栏数据，如果你不设置为'structuring',将无法使用目录页
@@ -96,7 +96,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Foresee Studio', // 必需
+      name: '先知科技工作室', // 必需
       href: 'https://github.com/XZKJGZS/' // 可选的
     },
     social: { // 社交图标，显示于博主信息栏和页脚栏
@@ -104,8 +104,8 @@ module.exports = {
       icons: [
         {
           iconClass: 'icon-youjian',
-          title: '发邮件',
-          link: 'mailto:jlstudioemail@163.com'
+          title: 'Send Email',
+          link: 'mailto:Foresee-Studio@outlook.com'
         },
         {
           iconClass: 'icon-github',
@@ -114,9 +114,9 @@ module.exports = {
         },
       ]
     },
-    footer: { // 页脚信息
-      createYear: 2020, // 博客创建年份
-      copyrightInfo: 'Foresee Studio | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT Licens</a>', // 博客版权信息，支持a标签
+    footer: { // Footer Information
+      createYear: 2020, // Year of Blog Creation
+      copyrightInfo: 'Foresee Studio | <a href="https://github.com/XZKJGZS/foreseestudio/blob/master/README.md">MIT License</a>', // Blog Copyright Information, supports HTML links
     },
     htmlModules,
   },
@@ -141,7 +141,7 @@ module.exports = {
 
     ['one-click-copy', { // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
-      copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
+      copyMessage: 'Copy Successful', // default is 'Copy successfully and then paste it for use.'
       duration: 1000, // prompt message display time.
       showInMobile: true, // whether to display on the mobile side, default: false.
     }],
