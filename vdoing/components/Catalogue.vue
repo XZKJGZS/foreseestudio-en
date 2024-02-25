@@ -8,7 +8,7 @@
       </dl>
     </div>
     <div class="catalogue-wrapper" v-if="isStructuring">
-      <div class="catalogue-title">目录</div>
+      <div class="catalogue-title">Catalogue</div>
       <div class="catalogue-content">
         <template v-for="(item, index) in getCatalogueList()">
           <dl v-if="type(item) === 'array'" :key="index" class="inline">
