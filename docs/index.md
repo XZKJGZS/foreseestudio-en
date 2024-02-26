@@ -10,12 +10,16 @@ features: # 可选的
   - title: About
     details: Deliberate and witty as a torch
     link: /about/a0001/ # 可选
+    imgUrl: /ico/2.png
   - title: Technology
     details: Code line wise stars
     link: /technology/
+    imgUrl: /ico/3.png
   - title: Product
     details: The Source of Solution Intelligence
     link: /products/
+    imgUrl: /ico/1.png
+
 ---
 ## 👋 看不懂英文？快来试试我们的中文网站 👉
 ::: cardList 1
