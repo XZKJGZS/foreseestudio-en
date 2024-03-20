@@ -50,7 +50,7 @@ export default {
 
       // 添加 English Website 链接
       const englishWebsiteLink = {
-        link: 'https://foreseestudio.top/',
+        link: 'https://orionai.top/',
         label: '中文网站',
         isEnglishSite: true // 用于模板中的条件渲染
       }
